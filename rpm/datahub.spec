@@ -1,6 +1,6 @@
 %define name         datahub
 %define release      1
-%define version      0.9.0
+%define version      2.2.0
 %define buildroot %{_topdir}/%{name}-%{version}-%{release}
 
 BuildRoot:      %{buildroot}
@@ -9,7 +9,7 @@ License:        GPL
 Name:           %{name}
 Version:        %{version}
 Release:        %{release}  
-Source:         datahub-0.9.0.tar.gz  
+Source:         datahub-2.2.0.tar.gz  
 Prefix:         /usr 
 URL:            hub.dataos.io
   
